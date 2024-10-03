@@ -1,12 +1,11 @@
 import React from "react";
-const Home = React.lazy(() => import("./Hello"));
-const Produks = React.lazy(() => import("./Produks"));
-const Register = React.lazy(() => import("./Register"));
+const Home = React.lazy(()=> import("./Hello"));
+const Product = React.lazy(()=> import("./Product"));
+const Register = React.lazy(()=> import("./Registrasi"));
 
 const routes = [
-    {path : "/", component : Home},
-    {path : "/produks", component : Produks},
-    {path : "/register", component : Register},
+    {path: "/", Component: Home},
+    {path: "/product", Component: Product},
+    {path: "/register", Component: Register},
 ];
-
 export default routes;

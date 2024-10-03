@@ -1,18 +1,15 @@
-import React from "react";
-
-function Hello(props) {
-    const {nama, pesan} = props;
-    //props.nama = "Nelson Antonio Celo";
+import React from'react';
+function Hello(props){
+    const {nama, pesan} =  props;
     return (
-        <h1>
-            Hello {nama}, {pesan}
-        </h1>
+    <h1>
+        Hello {nama}, {pesan}
+    </h1>   
     );
 }
-
-Hello.defaultProps = {
-    nama : "Nelson Antonio Celo",
-    pesan : "Semoga hari ini lebih baik dari sebelumnya"
+    Hello.defaultProps = {
+        nama: "Adnan",
+        pesan: "Selamat MDP"
 };
 
 export default Hello;
