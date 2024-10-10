@@ -1,5 +1,7 @@
-export default function DashboardLayout() {
-    return (
-  <hi> This Is Setting Page</hi>
-    );
-  }
+export default function Page(){
+  return(
+      <div>
+          <h1>This is Setting Page</h1>
+      </div>
+  );
+}
