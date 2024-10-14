@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Users Management App
+
+Aplikasi ini memungkinkan pengguna untuk mengelola daftar pengguna dengan operasi CRUD (Create, Read, Update, Delete) menggunakan API publik dari [ReqRes](https://reqres.in/). 
+
+## Cara Menjalankan Aplikasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/repo-name.git
+   cd repo-name
+
+2. **Instal Dependensi**
+    npm install
+
+3. **Menjalankan Aplikasi**
+    npm start
+
+API yang Digunakan
+    Get Users: GET https://reqres.in/api/users
+    Create User: POST https://reqres.in/api/users
+    Update User: PUT https://reqres.in/api/users/{id}
+    Delete User: DELETE https://reqres.in/api/users/{id}
