@@ -53,7 +53,7 @@ ul {
 
 .user-actions {
   display: flex;
-  gap: 5px; /* Spasi antara tombol */
+  gap: 5px; 
 }
 
 button {
