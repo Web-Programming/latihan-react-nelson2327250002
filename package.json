@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "react-bootstrap": "^2.10.5",
-    "react-chartist": "^0.14.4",
-    "react-tinder-card": "^1.6.4"
-  }
-}
